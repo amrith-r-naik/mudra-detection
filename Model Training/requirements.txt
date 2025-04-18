@@ -1,0 +1,6 @@
+matplotlib
+numpy<2
+pandas
+tensorflow<2.11
+opencv-python
+ipykernel
