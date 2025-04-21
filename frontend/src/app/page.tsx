@@ -29,7 +29,7 @@ export default async function Home() {
                   Home
                 </Link>
                 <Link
-                  href="/about"
+                  href="#about"
                   className="text-[#FFFFFF] hover:text-[#CA8653] transition-colors duration-200 text-sm uppercase tracking-wider font-medium"
                 >
                   About Us
@@ -77,7 +77,8 @@ export default async function Home() {
             </Link>
           </div>
         </section>
-        {/* After Hero Section, before Footer */}
+
+        {/* About Us */}
         <section id="about" className="py-24 px-6 bg-[#241F2A]/50 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center bg-gradient-to-r from-[#CA8653] to-[#FFFFFF] bg-clip-text text-transparent">
