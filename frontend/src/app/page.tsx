@@ -46,7 +46,7 @@ export default async function Home() {
         </header>
 
         {/* Hero Section */}
-        <section className="flex-grow flex flex-col items-center justify-center px-6 text-center py-32 mt-16">
+        <section className="flex-grow flex flex-col items-center justify-center px-6 text-center py-32 mt-16 h-screen">
           {/* Background Dancers */}
           <div className="fixed inset-0 pointer-events-none z-0">
             <img
@@ -62,7 +62,7 @@ export default async function Home() {
           </div>
 
           {/* Hero Content */}
-          <div className="relative z-10 max-w-4xl mx-auto">
+          <div className="relative z-10 max-w-4xl mx-auto ">
             <h1 className="text-4xl sm:text-4xl font-extrabold mb-4 bg-gradient-to-r from-[#FFFFFF] to-[#CA8653] bg-clip-text text-transparent">
               Predict and Learn Bharatanatya Mudras
             </h1>
