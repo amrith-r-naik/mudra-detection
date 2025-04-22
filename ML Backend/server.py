@@ -8,7 +8,7 @@ import json
 import base64
 
 app = Flask(__name__)
-model = tf.keras.models.load_model("mudra_model")
+model = tf.keras.models.load_model("mudra_transfer_model74.h5")
 with open("mudra_labels.json") as f:
     class_indices = json.load(f)
     index_to_label = {v: k for k, v in class_indices.items()}
