@@ -4,3 +4,6 @@ pandas
 tensorflow<2.11
 opencv-python
 ipykernel
+rembg
+onnxruntime
+onnxruntime-gpu
